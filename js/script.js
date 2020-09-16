@@ -1,11 +1,11 @@
-
-users = fetch("../json/users.json").then(res => {
-    return res.json();
-}).then(loadedUsers => {
-    users = loadedUsers;
-    return users;
-});
 window.addEventListener('load', function () {
+    
+    users = fetch("../json/users.json").then(res => {
+        return res.json();
+    }).then(loadedUsers => {
+        users = loadedUsers;
+        return users;
+    });
 
     function setContent(args = { "gender": 'A', "flock": '' }) {
         let resultsHTML = '';
