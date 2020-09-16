@@ -1,4 +1,4 @@
-fetch("../json/users.json").then(res => {
+fetch("../json/birds.json").then(res => {
     return res.json();
 }).then(loadedUsers => {
     users = loadedUsers;
