@@ -1,4 +1,4 @@
-fetch("../jsons/birds.json", {
+fetch("https://andrehaguiar.github.io/AppZenvaLove/jsons/birds.json", {
     credentials: 'include', // Useful for including session ID (and, IIRC, authorization headers)
 })
     .then(res => res.json())
