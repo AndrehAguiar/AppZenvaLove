@@ -1,9 +1,4 @@
-fetch("https://andrehaguiar.github.io/AppZenvaLove/json/birds.json").then(res => {
-    return res.json();
-}).then(loadedUsers => {
-    users = loadedUsers;
-    return users;
-});
+fetch("../json/birds.json").then(res => res.json());
 
 window.addEventListener('load', function () {
 
