@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Matilda",
+        "flock": "Birds",
+        "gender": "F",
+        "ability": "Matilda tem a capacidade de soltar um ovo que explode e faz bastante estrago, principalmente nas pedras. Quando ela solta o ovo, ela é lançada pra cima, na diagonal, podendo causar ainda mais danos caso atinja algum objeto ou porco.",
+        "avatar": "pajarito1.png"
+    },
+    {
+        "name": "Jim",
+        "flock": "Birds",
+        "gender": "M",
+        "ability": "Esse pássaro tem a habilidade de se dividir em três outros. Eles são bastante eficazes contra objetos de gelo, mas, são bem fracos contra pedras.",
+        "avatar": "pajarito2.png"
+    },
+    {
+        "name": "AI",
+        "flock": "Birds",
+        "gender": "M",
+        "ability": "Al tem o poder de agir como um bumerangue.",
+        "avatar": "pajarito3.png"
+    },
+    {
+        "name": "Terence",
+        "flock": "Birds",
+        "gender": "M",
+        "ability": "Terence é enorme, e, pelo seu tamanho, vai empurrando sem dó tudo que encontra pela frente. ",
+        "avatar": "pajarito4.png"
+    },
+    {
+        "name": "Bomb",
+        "flock": "Birds",
+        "gender": "M",
+        "ability": "O pássaro preto é uma bomba relógio ambulante. Destrói tudo com muita facilidade, mas, seu alvo preferido são as pedras.",
+        "avatar": "pajarito5.png"
+    },
+    {
+        "name": "Chuck",
+        "flock": "Birds",
+        "gender": "M",
+        "ability": "Chuck tem a habilidade de aumentar bastante sua velocidade de ataque. Ele destrói objetos de madeira com muita facilidade, mas não é muito eficaz contra as pedras e objetos de gelo.",
+        "avatar": "pajarito6.png"
+    },
+    {
+        "name": "Foreman",
+        "flock": "Pigs",
+        "gender": "M",
+        "ability": "O trabalho do Foreman Pig é construir armas de captura de ovos para King Pig, embora os designs sejam na verdade uma modificação das máquinas pacíficas do Professor Pig.",
+        "avatar": "pig1.png"
+    },
+    {
+        "name": "Red",
+        "flock": "Birds",
+        "gender": "M",
+        "ability": "Personagem clássico e ícone da série. Não possui habilidades especiais.",
+        "avatar": "pajarito7.png"
+    },
+    {
+        "name": "King",
+        "flock": "Pigs",
+        "gender": "M",
+        "ability": " Seu maior sonho é comer os ovos, a comida que não é sobremesa, para deixar os porcos mais velhos orgulhosos e saciar sua fome. Ele também é infantil, chora muito e não aceita perder.",
+        "avatar": "pig2.png"
+    },
+    {
+        "name": "Minion",
+        "flock": "Pigs",
+        "gender": "M",
+        "ability": "Extremamente fraco e geralmente fica desprotegido e pode ser facilmente removido.",
+        "avatar": "pig4.png"
+    },
+    {
+        "name": "Stella",
+        "flock": "Birds",
+        "gender": "F",
+        "ability": "Stella é fofinha, e se transforma em diversas bolhas. Os objetos que estiverem no caminho das bolhas dela são engolidos e começam a subir, subir… até que as bolhas estouram e os objetos caem, sendo destruídos.",
+        "avatar": "pajarito8.png"
+    },
+    {
+        "name": "Corporal",
+        "flock": "Pigs",
+        "gender": "M",
+        "ability": " Ele costuma ficar zangado com seus Porcos Soldados por eles não saberem o que fazer. Além de trabalhar, ele adora seu capacete e ignora os ovos quando o capacete está em perigo.",
+        "avatar": "pig3.png"
+    }
+]

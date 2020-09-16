@@ -1,0 +1,100 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+}
+*{
+    margin: 0;
+    max-width: 100%;
+}
+hr{
+    margin: 0.5rem 0;
+    border-color: black;
+}
+#header{
+    background-color:red;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+#header>h1{
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.row{
+    margin: 3rem auto;
+    max-width: 100rem;
+}
+.row>.row{
+    margin: 1rem;
+}
+.row>select,
+.row>input,
+.row>button{
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+.row>select:hover{
+    cursor: pointer;
+}
+.row>select>option{
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+.btn{    
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: orangered;
+    border-radius: 0.5rem;
+    border-color: blanchedalmond;
+    box-shadow: inset -0.1rem -0.1rem 0.3rem rgba(110, 2, 2,0.5);
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(110, 2, 2,0.5);
+}
+.btn:hover{
+    box-shadow: -0.1rem -0.1rem 0.3rem;
+}
+#results{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.person-row{
+    max-width: 100rem;
+    background-color:orange;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.person-info{
+    width: 80vw;
+    text-align: left;
+    margin: 0 1rem;
+    line-height: 1.5rem;
+}
+.person-info #name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#avatar{
+    width: auto;
+    min-width: 10rem;
+    background-color: white;
+}
+#avatar>img{
+    display: flex;
+    max-height: 5rem;
+    height: auto;
+    width: auto;
+    margin:1rem auto;
+}
+.person-row>button{
+    width: 10vw;
+    min-width: 5rem;
+}
