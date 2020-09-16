@@ -1,4 +1,4 @@
-fetch("../json/birds.json").then(res => {
+fetch("https://andrehaguiar.github.io/AppZenvaLove/json/birds.json").then(res => {
     return res.json();
 }).then(loadedUsers => {
     users = loadedUsers;
