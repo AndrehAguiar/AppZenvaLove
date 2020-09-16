@@ -20,7 +20,7 @@ window.addEventListener('load', function () {
                     resultsHTML += `
                     <div class="person-row">
                         <div id="avatar">
-                            <img src="../img/${u.avatar}" alt="${u.name}" />
+                            <img src="https://andrehaguiar.github.io/AppZenvaLove/img/${u.avatar}" alt="${u.name}" />
                         </div>
                         <div class="person-info">
                             <div id="name">${u.name} - ${u.flock}</div>
