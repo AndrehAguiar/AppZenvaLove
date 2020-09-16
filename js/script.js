@@ -1,5 +1,4 @@
-
-fetch("../json/users.json").then(res => {
+function fetch("../json/users.json").then(res => {
     return res.json();
 }).then(loadedUsers => {
     users = loadedUsers;
