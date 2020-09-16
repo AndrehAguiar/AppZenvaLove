@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fetch("../jsons/birds.json", {
     credentials: 'include', // Useful for including session ID (and, IIRC, authorization headers)
 })
@@ -7,6 +8,9 @@ fetch("../jsons/birds.json", {
         return users;
     })
     .catch(error => console.error(error))
+=======
+fetch("../json/birds.json").then(res => res.json());
+>>>>>>> 3829658dbcc5c094127cce036d8b575b8e28c84e
 
 window.addEventListener('load', function () {
 
