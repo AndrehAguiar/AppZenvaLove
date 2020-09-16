@@ -10,28 +10,31 @@
 </head>
 
 <body>
-    <div id="header">
-        <h1>Zenva Love</h1>
-    </div>
-    <div id="main">
-        <div class="row">
-            <div class="row">
-                <label for="gender">Gender</label>
-                <select name="selectGender" id="gender" class="custom-select">
-                    <option value="A">All</option>
-                    <option value="F">Female</option>
-                    <option value="M">Male</option>
-                </select>
-            </div>
-            <div class="row"><label for="flock">Flocks</label>
-                <input type="text" id="flock" />
-            </div>
-            <div class="row">
-                <button id="searchBtn" class="btn">Search</button>
-            </div>
+    <div id="loader"></div>
+    <div id="container" class="hidden">
+        <div id="header">
+            <h1>Zenva Love</h1>
         </div>
+        <div id="main">
+            <div class="row">
+                <div class="row">
+                    <label for="gender">Gender</label>
+                    <select name="selectGender" id="gender" class="custom-select">
+                        <option value="A">All</option>
+                        <option value="F">Female</option>
+                        <option value="M">Male</option>
+                    </select>
+                </div>
+                <div class="row"><label for="flock">Flocks</label>
+                    <input type="text" id="flock" />
+                </div>
+                <div class="row">
+                    <button id="searchBtn" class="btn">Search</button>
+                </div>
+            </div>
 
-        <div id="results">
+            <div id="results">
+            </div>
         </div>
     </div>
 
