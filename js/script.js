@@ -1,3 +1,6 @@
+let loader = document.getElementById('loader');
+let container = document.getElementById('container');
+
 fetch("https://andrehaguiar.github.io/AppZenvaLove/jsons/birds.json", {
     credentials: 'include', // Useful for including session ID (and, IIRC, authorization headers)
 })
@@ -39,8 +42,6 @@ window.addEventListener('load', function () {
     const searchBtn = document.getElementById('searchBtn');
     const results = document.getElementById('results');
 
-    results.innerHTML = setContent();
-
     let search = function () {
 
         const flockField = document.getElementById('flock');
@@ -57,4 +58,8 @@ window.addEventListener('load', function () {
 
     searchBtn.addEventListener('click', search);
 
+    results.innerHTML = setContent();
+
 });
+loader.classList.add('hidden');
+container.classList.remove('hidden');
