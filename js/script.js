@@ -1,9 +1,12 @@
-fetch("../json/birds.json").then(res => {
-    return res.json();
-}).then(loadedUsers => {
-    users = loadedUsers;
-    return users;
-});
+fetch("../jsons/birds.json", {
+    credentials: 'include', // Useful for including session ID (and, IIRC, authorization headers)
+})
+    .then(res => res.json())
+    .then(data => {
+        users = data
+        return users;
+    })
+    .catch(error => console.error(error))
 
 window.addEventListener('load', function () {
 
